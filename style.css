@@ -1,0 +1,131 @@
+/* Resetando algumas margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Barra de navegação */
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção Início */
+#inicio {
+    background-color: #0a9396;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#inicio h1 {
+    font-size: 3rem;
+}
+
+/* Seção Sobre */
+#sobre {
+    background-color: #e9d8a6;
+}
+
+#sobre h2 {
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Seção Notícias */
+#noticias ul {
+    list-style-type: none;
+}
+
+#noticias ul li {
+    margin: 10px 0;
+}
+
+#noticias ul li a {
+    color: #005f73;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Seção Contato */
+#contato {
+    background-color: #94d2bd;
+}
+
+#contato h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #005f73;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0a9396;
+}
+
+/* Rodapé */
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
